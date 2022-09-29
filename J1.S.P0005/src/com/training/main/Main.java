@@ -1,5 +1,4 @@
 package com.training.main;
-//Quick sort algorithm.
 
 public class Main {
 	public static void main(String[] args) {
@@ -9,7 +8,7 @@ public class Main {
 		int[] arr = v.randomData(n);
 		System.out.print("Original array: ");
 		v.display(arr);
-		v.quickSort(arr, 0, n - 1);
+		v.sort(arr);
 		System.out.print("\nArray After Sort: ");
 		v.display(arr);
 	}
