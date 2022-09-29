@@ -1,0 +1,8 @@
+package exercise2;
+
+public class ArrayContains {
+public static void main(String[] args) {
+	String[] stringArray = {"FTP","Fresher", "Acedemy", "2018"};
+	
+}
+}

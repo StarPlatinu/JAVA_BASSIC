@@ -1,0 +1,51 @@
+package fa.training.abstraction;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Scanner;
+
+public class Validation {
+	public final static Scanner sc = new Scanner(System.in);
+	final static String DATE_FORMAT = "dd-MM-yyyy";
+
+	public static double getDouble() {
+		while(true) {
+			try {
+			double result = Double.parseDouble(sc.nextLine().trim());	
+			return result;
+			} catch (NumberFormatException e) {
+				System.out.println(e);
+			}
+		}
+	}
+
+	public static String checkInputString() {
+		// loop until user input correct
+		while (true) {
+			String result = sc.nextLine().trim();
+			if (result.isEmpty()) {
+				System.err.println("Not empty");
+				System.out.print("Enter again: ");
+			} else {
+				return result;
+			}
+		}
+	}
+	
+	public static Date isDateValid() 
+	{
+	       while(true) {
+	    	   try {
+		        	String date = sc.nextLine();
+		            DateFormat df = new SimpleDateFormat(DATE_FORMAT);
+		            df.setLenient(false);
+		            Date result =  df.parse(date);
+		            return result;
+		        } catch (ParseException e) {
+		          System.out.println("Please Enter Date Follow The Format dd-MM-yyyy.");
+		        }
+	       }
+	}
+}

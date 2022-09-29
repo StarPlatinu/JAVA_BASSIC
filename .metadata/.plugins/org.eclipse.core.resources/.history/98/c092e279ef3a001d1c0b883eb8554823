@@ -1,0 +1,28 @@
+package fa.training.assignment1;
+
+import java.util.Scanner;
+
+public class Exercise6 {
+	public static int  getANumber() {
+		
+		return 0;
+	}
+public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	float width,height,area,perimeter;
+	while(true){
+		try {
+			System.out.print("Width = ");
+			width = sc.nextFloat();
+					if(radius<0) {
+				System.out.println("Radius must be a positive number.");
+			}else {
+				sc.close();
+				break;
+			}
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
+}
+}

@@ -1,0 +1,10 @@
+package fa.training.assignment1;
+
+public class Exercise1_Superme {
+public static void main(String[] args) {
+	 String w = "-5 + 8 * 6";
+	 String x = "(55 + 9) % 9";
+	 String y = "20 + (-3 * 5 / 8)";
+	 String z = "5 + 15 / 3 * 2 - 8 % 3";
+}
+}

@@ -1,0 +1,14 @@
+package fa.training.main;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import fa.training.entities.Ford;
+import fa.training.entities.Sedan;
+import fa.training.entities.Truck;
+
+public class MyOwnAutoShop {
+public static void main(String[] args) {	
+
+}
+}

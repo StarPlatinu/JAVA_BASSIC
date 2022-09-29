@@ -1,0 +1,35 @@
+package fa.training.assignment1;
+
+import java.util.Scanner;
+
+public class Exercise6 {
+	public static float getANumber(String mess) {
+		Scanner sc = new Scanner(System.in);
+		float number;
+		while (true) {
+					try {
+				System.out.print(mess);
+				number = sc.nextFloat();
+				if (number < 0) {
+					System.out.println(mess + " must be a positive number.");
+				} else {
+					sc.close();
+					return number;
+				}			
+			} catch (Exception e) {
+				System.out.println(e.getMessage());
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		float width, height, area, perimeter;
+		width = getANumber("Width: ");
+		height = getANumber("Height: ");
+		perimeter = 2 * (width + height);
+		area = width * height;
+		System.out.format("Area is %f*%f = %f", width, height, area);
+		System.out.format("Parimeter is 2*(%f + %f) = %f", width, height, perimeter);
+
+	}
+}

@@ -1,0 +1,25 @@
+package Exercise_5;
+
+import java.util.Scanner;
+
+public class Exercise5 {
+public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.print("Radius = ");
+	float radius;
+	while(true){
+		try {
+			radius = sc.nextFloat();
+			if(radius<0) {
+				System.out.println("Rdius must be a positive number");
+			}else {
+				break;
+			}
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
+	
+	sc.close();
+}
+}

@@ -1,0 +1,28 @@
+package com.servletbassic;
+
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebInitParam;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@WebServlet(urlPatterns = "/servletConfig",initParams = {
+		@WebInitParam(name="params1",value = "test servlet comfig")
+})
+public class SevletConfigDemo extends HttpServlet {
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+	String name =	super.getServletConfig().getInitParameter("params1");
+	resp.setContentType("text/html");
+	PrintWriter writer = resp.getWriter();
+	writer.println("Paramcontent: "+name);
+	}
+}

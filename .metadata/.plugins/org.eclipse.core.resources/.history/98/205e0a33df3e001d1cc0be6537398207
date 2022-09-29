@@ -1,0 +1,10 @@
+package fa.training.main;
+
+import java.util.Scanner;
+
+public class MyOwnAutoShop {
+public static void main(String[] args) {	
+Scanner sc = new Scanner(System.in);
+List
+}
+}

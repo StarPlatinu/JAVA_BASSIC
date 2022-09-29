@@ -1,0 +1,9 @@
+package fa.training.main;
+
+import fa.training.entities.Sedan;
+
+public class MyOwnAutoShop {
+     public static void main(String[] args) {
+		Sedan s = new Sedan(100, 1000, "black", 200);
+	}
+}

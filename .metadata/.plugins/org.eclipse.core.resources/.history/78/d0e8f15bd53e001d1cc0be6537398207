@@ -1,0 +1,15 @@
+package fa.training.entities;
+
+public class Sedan extends Car{
+	public int length;
+	
+	@Override
+	double getSalePrice() {
+		if(this.length>20) {
+			return this.regularPrice*0.05;
+		}else {
+			return this.regularPrice*0.1;
+		}
+	}
+
+}

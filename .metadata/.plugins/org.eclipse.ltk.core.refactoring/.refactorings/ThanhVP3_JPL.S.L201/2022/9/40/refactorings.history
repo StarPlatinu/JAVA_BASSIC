@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;TeacherManagement.java&apos; to &apos;ThanhVP3_JPL.S.L201/src/fa.training.management&apos;&#x0D;&#x0A;- Original project: &apos;ThanhVP3_JPL.S.L201&apos;&#x0D;&#x0A;- Destination element: &apos;ThanhVP3_JPL.S.L201/src/fa.training.management&apos;&#x0D;&#x0A;- Original element: &apos;fa.training.entities.TeacherManagement.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;fa.training.management" element1="/src&lt;fa.training.entities{TeacherManagement.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1664246292329" units="1" version="1.0"/>
+</session>

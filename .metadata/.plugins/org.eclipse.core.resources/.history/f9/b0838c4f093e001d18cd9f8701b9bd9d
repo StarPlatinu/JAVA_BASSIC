@@ -1,0 +1,12 @@
+package fa.training.entities;
+
+public class MathTeacher extends Teacher {
+	protected String mainSubject;
+	
+	@Override
+	public void teach() {
+		System.out.print("Teaching math subject:");
+		
+	}
+
+}

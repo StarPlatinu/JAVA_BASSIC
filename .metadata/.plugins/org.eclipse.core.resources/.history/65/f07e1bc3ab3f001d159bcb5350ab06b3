@@ -1,0 +1,47 @@
+package fa.training.abstraction;
+
+import java.util.Scanner;
+
+public class Validation {
+	public final static Scanner sc = new Scanner(System.in);
+
+	public static double getDouble() {
+		while(true) {
+			try {
+			double result = Double.parseDouble(sc.nextLine().trim());	
+			return result;
+			} catch (NumberFormatException e) {
+				System.out.println(e);
+			}
+		}
+	}
+
+	public static String checkInputString() {
+		// loop until user input correct
+		while (true) {
+			String result = sc.nextLine().trim();
+			if (result.isEmpty()) {
+				System.err.println("Not empty");
+				System.out.print("Enter again: ");
+			} else {
+				return result;
+			}
+		}
+	}
+
+	public static boolean checkInputYN() {
+		// loop until user input correct
+		while (true) {
+			String result = checkInputString();
+			// check user input y/Y or n/N
+			if (result.equalsIgnoreCase("Y")) {
+				return true;
+			} else if (result.equalsIgnoreCase("N")) {
+				return false;
+			}
+			System.err.println("Please input y/Y or n/N.");
+			System.out.print("Enter again: ");
+		}
+	}
+
+}

@@ -1,0 +1,12 @@
+package fa.training.entities;
+
+public class Ford extends Car{
+	public int year;
+	public int manufacturerDiscount;
+	
+	@Override
+	double getSalePrice() {
+		
+	}
+
+}
