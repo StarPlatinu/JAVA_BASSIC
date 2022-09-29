@@ -1,7 +1,0 @@
-import Main.MyEnum;
-
-public class Main {
-	System.out.println(MyEnum.COCA.getName());
-	MyEnum.TEA.setName("Milk Tea");
-	System.out.println(MyEnum.TEA.getName());
-}

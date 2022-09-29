@@ -1,0 +1,8 @@
+package com.training.main;
+
+//Selection sort algorithm.
+public class main {
+public main() {
+	
+}
+}

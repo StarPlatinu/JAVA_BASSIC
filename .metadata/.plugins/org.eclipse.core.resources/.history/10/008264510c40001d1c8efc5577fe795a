@@ -1,0 +1,9 @@
+package com.training.main;
+
+public class Main {
+public static void main(String[] args) {
+	Validation v = new Validation();
+	int length = v.getInteger();
+	 
+}
+}

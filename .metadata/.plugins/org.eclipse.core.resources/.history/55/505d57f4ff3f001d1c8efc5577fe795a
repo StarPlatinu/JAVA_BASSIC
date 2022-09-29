@@ -1,0 +1,13 @@
+package com.learning.main;
+
+
+//Bubble sort
+public class Main {
+public static void main(String[] args) {
+	Validation v = new Validation();
+	System.out.println("Enter number of an array: ");
+	int n = v.getInteger();
+	System.out.println("Fill your data to the cell below");
+	
+}
+}
