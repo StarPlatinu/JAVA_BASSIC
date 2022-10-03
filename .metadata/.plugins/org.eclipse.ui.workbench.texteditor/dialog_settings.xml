@@ -8,6 +8,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="EMAIL_VALID"/>
 			<item value="80"/>
 			<item value="8080"/>
 			<item value="99"/>
