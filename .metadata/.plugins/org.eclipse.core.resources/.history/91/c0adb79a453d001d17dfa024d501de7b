@@ -1,7 +1,0 @@
-package exercise3;
-
-public class FrequentNumber {
-public static void main(String[] args) {
-	
-}
-}

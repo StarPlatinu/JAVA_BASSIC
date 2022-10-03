@@ -2,6 +2,8 @@ package Excercise_2;
 
 public class Wallet {
 	private int money;
+	
+	
 
 	public int getMoney() {
 		return money;
