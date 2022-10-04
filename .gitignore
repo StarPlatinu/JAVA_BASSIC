@@ -5,7 +5,7 @@
 .metadata
 bin/
 tmp/
-plugins/
+/plugins
 *.log
 *.lock
 *.tmp
