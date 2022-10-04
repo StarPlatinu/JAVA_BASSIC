@@ -48,12 +48,16 @@
     <fullyQualifiedTypeName name="utilities.Input"/>
     <fullyQualifiedTypeName name="Model.Student"/>
     <fullyQualifiedTypeName name="Controller.StudentManagement"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Hashtable"/>
     <fullyQualifiedTypeName name="Model.Fruit"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="Controller.FruitManager"/>
     <fullyQualifiedTypeName name="Controller.Validation"/>
+    <fullyQualifiedTypeName name="fa.training.entities.Shape"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="fa.training.entities.ShapeManagerment"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="fa.training.entities.Rectangle"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
