@@ -1,11 +1,6 @@
 package fa.training.main;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
-import fa.training.entities.Rectangle;
-import fa.training.entities.ShapeManagerment;
+import fa.training.service.ShapeManagerment;
 
 public class ShapeTest {
 	public static void main(String[] args) {

@@ -1,8 +1,10 @@
-package fa.training.entities;
+package fa.training.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
+import fa.training.entities.Rectangle;
 
 public class ShapeManagerment {
 	static Scanner sc = new Scanner((System.in));
@@ -91,8 +93,7 @@ public class ShapeManagerment {
 			int maxArea =list.get(0).calculateArea();
 			int flag = 0;
 			for (int i = 0; i < list.size(); i++) {
-		      if(maxArea<list.get(i).calculateArea()) {
-		    	  maxArea = list.get(i).calculateArea();
+		      if(maxArea<list.get(i).calculateArea()) {	    
 		    	  flag = i;
 		      }		    
 			}
@@ -108,8 +109,7 @@ public class ShapeManagerment {
 			int minArea =list.get(0).calculateArea();
 			int flag = 0;
 			for (int i = 0; i < list.size(); i++) {
-		      if(minArea>list.get(i).calculateArea()) {
-		    	  minArea = list.get(i).calculateArea();
+		      if(minArea>list.get(i).calculateArea()) {	    	
 		    	  flag = i;
 		      }
 			}	
@@ -118,8 +118,4 @@ public class ShapeManagerment {
 		
 	}
 	
-	
-	
-	
-
 }
