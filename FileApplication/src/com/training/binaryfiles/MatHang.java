@@ -4,11 +4,13 @@
  */
 package com.training.binaryfiles;
 
+import java.io.Serializable;
+
 /**
  *
  * @author thanh
  */
-public class MatHang {
+public class MatHang implements Serializable{
     private int ma;
     private String tenHang;
     private int soLuong;

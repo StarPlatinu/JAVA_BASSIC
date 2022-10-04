@@ -57,7 +57,7 @@
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
     <fullyQualifiedTypeName name="fa.training.entities.ShapeManagerment"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="fa.training.entities.Rectangle"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="fa.training.entities.Rectangle"/>
 </qualifiedTypeNameHistroy>
