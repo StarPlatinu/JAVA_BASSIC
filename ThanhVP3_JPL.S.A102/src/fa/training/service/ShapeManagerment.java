@@ -102,14 +102,14 @@ public class ShapeManagerment {
 		
 	}
 	
-	public void getMinArea() {
+	public void getMinPerimeter() {
 		if(list.isEmpty()) {
 			System.out.println("Don't have any data to display.");
 		}else {
-			int minArea =list.get(0).calculateArea();
+			int minArea =list.get(0).calculatePerimeter();
 			int flag = 0;
 			for (int i = 0; i < list.size(); i++) {
-		      if(minArea>list.get(i).calculateArea()) {	    	
+		      if(minArea>list.get(i).calculatePerimeter()) {	    	
 		    	  flag = i;
 		      }
 			}	

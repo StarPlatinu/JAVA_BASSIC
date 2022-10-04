@@ -21,7 +21,7 @@ public class ShapeTest {
 				manager.getMaxArea();
 				break;
 			case 4:
-				manager.getMinArea();
+				manager.getMinPerimeter();
 				break;
 			case 5:
 				System.out.println("Good bye!");
