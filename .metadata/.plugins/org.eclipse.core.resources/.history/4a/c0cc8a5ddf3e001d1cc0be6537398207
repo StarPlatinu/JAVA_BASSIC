@@ -1,9 +1,0 @@
-package fa.training.main;
-
-import fa.training.entities.Sedan;
-
-public class MyOwnAutoShop {
-     public static void main(String[] args) {
-		Seden s = new Seden();
-	}
-}
