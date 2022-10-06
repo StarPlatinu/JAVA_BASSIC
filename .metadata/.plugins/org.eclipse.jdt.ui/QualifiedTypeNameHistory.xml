@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="fa.training.entities.Truck"/>
-    <fullyQualifiedTypeName name="fa.training.abstraction.Employee"/>
-    <fullyQualifiedTypeName name="java.text.ParseException"/>
-    <fullyQualifiedTypeName name="fa.training.abstraction.Validation"/>
-    <fullyQualifiedTypeName name="com.learning.main.Validation"/>
-    <fullyQualifiedTypeName name="javax.xml.validation.Validator"/>
-    <fullyQualifiedTypeName name="com.training.main.validation"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="com.training.main.Validation"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="com.training.entity.Shape"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="Excercise_1.Validation"/>
@@ -34,8 +24,6 @@
     <fullyQualifiedTypeName name="fa.training.entities.Rectangle"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="fa.training.utils.Validation"/>
     <fullyQualifiedTypeName name="fa.training.main.DepartmentManage"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -49,15 +37,27 @@
     <fullyQualifiedTypeName name="Interviewer"/>
     <fullyQualifiedTypeName name="Batch"/>
     <fullyQualifiedTypeName name="candidate"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="com.training.entities.Worker"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.training.entities.History"/>
-    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="java.text.DateFormat"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="com.training.services.Manager"/>
-    <fullyQualifiedTypeName name="com.training.utils.Validation"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.training.entities.Expense"/>
+    <fullyQualifiedTypeName name="com.training.utils.Validation"/>
+    <fullyQualifiedTypeName name="com.training.services.ExpenseList"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.traning.uitils.Validation"/>
+    <fullyQualifiedTypeName name="com.traning.entities.Employee"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="com.training.services.Manager"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ResourceBundle"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="com.traning.services.TPBank"/>
 </qualifiedTypeNameHistroy>
