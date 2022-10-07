@@ -21,6 +21,6 @@ public class SalesEmployee extends Employee {
 
 	@Override
 	public String toString() {
-		return super.toString()+"numberUnits=" + numberUnits;
+		return super.toString()+", numberUnits=" + numberUnits;
 	}
 }
