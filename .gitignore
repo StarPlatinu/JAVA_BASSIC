@@ -72,3 +72,7 @@ local.properties
 /IncludeDeractive/build/
 /ExpressionLanguege/nbproject/private/
 /ExpressionLanguege/build/
+/JDBC-Demo/nbproject/private/
+/JDBC-Demo/build/
+/JDBC-Demo/dist/
+/Relation_1_To_Many/nbproject/private/
