@@ -76,3 +76,4 @@ local.properties
 /JDBC-Demo/build/
 /JDBC-Demo/dist/
 /Relation_1_To_Many/nbproject/private/
+/Relation_1_To_Many/build/
