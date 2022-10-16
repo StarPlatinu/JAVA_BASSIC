@@ -68,18 +68,3 @@ local.properties
 .sts4-cache/
 
 # End of https://www.toptal.com/developers/gitignore/api/eclipse
-/IncludeDeractive/nbproject/private/
-/IncludeDeractive/build/
-/ExpressionLanguege/nbproject/private/
-/ExpressionLanguege/build/
-/JDBC-Demo/nbproject/private/
-/JDBC-Demo/build/
-/JDBC-Demo/dist/
-/Relation_1_To_Many/nbproject/private/
-/Relation_1_To_Many/build/
-/SearchDemo/nbproject/private/
-/SearchDemo/build/
-/SessionDemo/nbproject/private/
-/SessionDemo/build/
-/Crud_CheckAuthentication/nbproject/private/
-/Crud_CheckAuthentication/build/

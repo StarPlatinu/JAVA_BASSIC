@@ -1,0 +1,14 @@
+insert into products values
+(N'ss1',N'Samsung Galaxy Z Flip3 5G 128GB',15,19000.00,cast(0x12430B00 As Date),N' Màn hình kép ?n t??ng - Màn hình chính: 6.7", màn hình ph?: 1.9" AMOLED',N'https://cdn2.cellphones.com.vn/358x/media/catalog/product/8/0/800x800_flip_3_lavender_3_1_1_1.png',2),
+(N'ss2',N'Samsung Galaxy Z Flip3 5G 128GB',15,19000.00,cast(0x12430B00 As Date),N' Màn hình kép ?n t??ng - Màn hình chính: 6.7", màn hình ph?: 1.9" AMOLED',N'https://cdn2.cellphones.com.vn/358x/media/catalog/product/8/0/800x800_flip_3_lavender_3_1_1_1.png',2),
+(N'ss3',N'Samsung Galaxy Z Flip3 5G 128GB',15,19000.00,cast(0x12430B00 As Date),N' Màn hình kép ?n t??ng - Màn hình chính: 6.7", màn hình ph?: 1.9" AMOLED',N'https://cdn2.cellphones.com.vn/358x/media/catalog/product/8/0/800x800_flip_3_lavender_3_1_1_1.png',2),
+(N'ss4',N'Samsung Galaxy Z Flip3 5G 128GB',15,19000.00,cast(0x12430B00 As Date),N' Màn hình kép ?n t??ng - Màn hình chính: 6.7", màn hình ph?: 1.9" AMOLED',N'https://cdn2.cellphones.com.vn/358x/media/catalog/product/8/0/800x800_flip_3_lavender_3_1_1_1.png',2),
+(N'nkia1',N'?i?n tho?i Nokia G21',15,1000.00,cast(0x12430B00 As Date),N'Thi?t k? tr? trung',N'https://cdn.tgdd.vn/Products/Images/42/270207/nokia-g21-tim-1.jpg',1),
+(N'nkia2',N'?i?n tho?i Nokia G21',15,1000.00,cast(0x12430B00 As Date),N'Thi?t k? tr? trung',N'https://cdn.tgdd.vn/Products/Images/42/270207/nokia-g21-tim-1.jpg',1),
+(N'nkia3',N'?i?n tho?i Nokia G21',15,1000.00,cast(0x12430B00 As Date),N'Thi?t k? tr? trung',N'https://cdn.tgdd.vn/Products/Images/42/270207/nokia-g21-tim-1.jpg',1),
+(N'nkia4',N'?i?n tho?i Nokia G21',15,1000.00,cast(0x12430B00 As Date),N'Thi?t k? tr? trung',N'https://cdn.tgdd.vn/Products/Images/42/270207/nokia-g21-tim-1.jpg',1),
+(N'nkia5',N'?i?n tho?i Nokia G21',15,1000.00,cast(0x12430B00 As Date),N'Thi?t k? tr? trung',N'https://cdn.tgdd.vn/Products/Images/42/270207/nokia-g21-tim-1.jpg',1),
+(N'glx1',N'?i?n tho?i Samsung Galaxy A22',15,1300.00,cast(0x12430B00 As Date),N'Nâng cao tr?i nghi?m ng??i dùng',N'https://cdn.tgdd.vn/Products/Images/42/237603/samsung-galaxy-a22-4g-1-1.jpg',4),
+(N'glx2',N'?i?n tho?i Samsung Galaxy A22',15,1300.00,cast(0x12430B00 As Date),N'Nâng cao tr?i nghi?m ng??i dùng',N'https://cdn.tgdd.vn/Products/Images/42/237603/samsung-galaxy-a22-4g-1-1.jpg',4),
+(N'glx3',N'?i?n tho?i Samsung Galaxy A22',15,1300.00,cast(0x12430B00 As Date),N'Nâng cao tr?i nghi?m ng??i dùng',N'https://cdn.tgdd.vn/Products/Images/42/237603/samsung-galaxy-a22-4g-1-1.jpg',4),
+(N'glx4',N'?i?n tho?i Samsung Galaxy A22',15,1300.00,cast(0x12430B00 As Date),N'Nâng cao tr?i nghi?m ng??i dùng',N'https://cdn.tgdd.vn/Products/Images/42/237603/samsung-galaxy-a22-4g-1-1.jpg',4)

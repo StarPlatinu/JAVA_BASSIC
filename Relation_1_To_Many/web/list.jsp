@@ -107,7 +107,7 @@
                                 <td>${p.id}</td>
                                 <td>${p.name}</td>
                                 <td>${p.price}</td>
-                                <td><<img src="${p.image}" width="80px" height="80px"/></td>
+                                <td><img src="${p.image}" width="80px" height="80px"/></td>
                                 <td>${p.category.name}</td>
                             </tr>
                         </c:forEach>
