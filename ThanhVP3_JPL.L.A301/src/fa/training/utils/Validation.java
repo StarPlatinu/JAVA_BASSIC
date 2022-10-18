@@ -128,65 +128,6 @@ public class Validation {
 		}
 	}
 
-	/**
-	 * Sale Management Menu
-	 */
-	public void showMenu() {
-		System.out.println("============Sale Management System==========");
-		System.out.println("SELECT OPTIONS:");
-		System.out.println("\t1. Customer");
-		System.out.println("\t2. Employee");
-		System.out.println("\t3. Order");
-		System.out.println("\t4. LineItem");
-		System.out.println("\t5. Exit");
-	}
-
-	/**
-	 * CUSTOMER MENU
-	 */
-	public void showMenuCustomer() {
-		System.out.println("=====CUSTOMER FUNCTION=====");
-		System.out.println("\t1. Get all customer");
-		System.out.println("\t2. Add new customer");
-		System.out.println("\t3. Delete customer");
-		System.out.println("\t4. Update customer");
-		System.out.println("\t5. Return");
-	}
-
-	/**
-	 * EMPLOYEE MENU
-	 */
-	public void showMenuEmployee() {
-		System.out.println("=====EMPLOYEE FUNCTION=====");
-		System.out.println("\t1. Get all employee");
-		System.out.println("\t2. Find employee");
-		System.out.println("\t3. Add new employee");
-		System.out.println("\t4. Return");
-	}
-
-	/**
-	 * ORDER MENU
-	 */
-	public void showMenuOrder() {
-		System.out.println("=====ORDER FUNCTION=====");
-		System.out.println("\t1. Get all order by a specific customer");
-		System.out.println("\t2. Show total price of all orders");
-		System.out.println("\t3. Find order");
-		System.out.println("\t4. Update total price of a order");
-		System.out.println("\t5. Add order");
-		System.out.println("\t6. Return");
-	}
-
-	/**
-	 * LINEITEM MENU
-	 */
-	public void showMenuLineItem() {
-		System.out.println("=====LINEITEM FUNCTION=====");
-		System.out.println("\t1. Get all item by a specific order");
-		System.out.println("\t2. Add new lineitem for a order");
-		System.out.println("\t3. Return");
-	}
-
 	public void SaleManagementMenu() {
 		System.out.println("==========SaleManagement FUNCTION==========");
 		System.out.println("1) Add a customer into the database. \r\n"

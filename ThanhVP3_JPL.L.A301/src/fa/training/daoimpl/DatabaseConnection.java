@@ -16,7 +16,7 @@ public enum DatabaseConnection {
 		if (connection == null || connection.isClosed()) {
 			String user = "sa";
 			String pass = "sa";
-			String url = "jdbc:sqlserver://LocalHost:1433;databaseName=GuitarShopDB";
+			String url = "jdbc:sqlserver://LocalHost:1433;databaseName=SMS";
 			connection = DriverManager.getConnection(url, user, pass);
 		}
 		return connection;
@@ -38,5 +38,9 @@ public enum DatabaseConnection {
 		} catch (SQLException e) {
 			System.out.println("[ERROR] close preparedStatement");
 		}
+	}
+	public static void main(String[] args) throws SQLException {
+		Connection connection = DatabaseConnection.DBConnection.getConnection();
+         System.out.println(connection);
 	}
 }

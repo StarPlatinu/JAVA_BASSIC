@@ -1,5 +1,5 @@
 package fa.training.daoimpl;
-
+import java.sql.*;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -15,24 +15,17 @@ public class CustomerDaoImpl implements CustomerDao {
 
 	@Override
 	public List<Customer> getAll() throws SQLException {
-		PreparedStatement prepareStatement = null;
-		ResultSet rs = null;
 		String sqlQuery = "SELECT CustomerId, CustomerName FROM Customer";
 		List<Customer> customers = new ArrayList<Customer>();
 		try (Connection connection = DatabaseConnection.DBConnection.getConnection()) {
-			prepareStatement = connection.prepareStatement(sqlQuery);
-			rs = prepareStatement.executeQuery(sqlQuery);
+			Statement stmt = connection.createStatement();
+			ResultSet rs = stmt.executeQuery(sqlQuery);
 			while (rs.next()) {
 				Customer customer = new Customer();
 				customer.setCustomerId(rs.getInt(1));
 				customer.setCustomerName(rs.getString(2));
 				customers.add(customer);
 			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-			System.out.printf("[ERROR] ", e);
-		} finally {
-			DatabaseConnection.close(prepareStatement, rs);
 		}
 		return customers.size() > 0 ? customers : null;
 	}
@@ -40,7 +33,7 @@ public class CustomerDaoImpl implements CustomerDao {
 	@Override
 	public void insertCustomer(String customerName) throws SQLException {
 		PreparedStatement statement = null;
-		String sqlQuery = "INSERT INTO Customer VALUES (?)";
+		String sqlQuery = "INSERT INTO Customer (CustomerName) Values (?)";
 		try (Connection connection = DatabaseConnection.DBConnection.getConnection()) {
 			statement = connection.prepareStatement(sqlQuery);
 			statement.setString(1, customerName);
