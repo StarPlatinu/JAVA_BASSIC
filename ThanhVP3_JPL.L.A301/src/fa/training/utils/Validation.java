@@ -93,20 +93,18 @@ public class Validation {
 	 * @return
 	 */
 	public Date inputDate() {
-		while(true) {
+		while (true) {
 			SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
-	        sdf.setLenient(false);
-	        String inputDate = sc.nextLine();
-	        try{
-	        	java.util.Date parsed = sdf.parse(inputDate); // parse to format MM/dd/yyyy
-	            java.sql.Date dateConvert = new java.sql.Date(parsed.getTime()); //try to convert to sql Date
-	            return dateConvert;
-	        }
-	        catch(Exception e)
-	        {
-	            System.err.println(inputDate+" is not a valid Date");
-	            continue;
-	        }
+			sdf.setLenient(false);
+			String inputDate = sc.nextLine();
+			try {
+				java.util.Date parsed = sdf.parse(inputDate); // parse to format MM/dd/yyyy
+				java.sql.Date dateConvert = new java.sql.Date(parsed.getTime()); // try to convert to sql Date
+				return dateConvert;
+			} catch (Exception e) {
+				System.err.println(inputDate + " is not a valid Date");
+				continue;
+			}
 		}
 	}
 
@@ -129,7 +127,78 @@ public class Validation {
 			System.out.print("Enter again: ");
 		}
 	}
-	
-	
-	
+
+	/**
+	 * Sale Management Menu
+	 */
+	public void showMenu() {
+		System.out.println("============Sale Management System==========");
+		System.out.println("SELECT OPTIONS:");
+		System.out.println("\t1. Customer");
+		System.out.println("\t2. Employee");
+		System.out.println("\t3. Order");
+		System.out.println("\t4. LineItem");
+		System.out.println("\t5. Exit");
+	}
+
+	/**
+	 * CUSTOMER MENU
+	 */
+	public void showMenuCustomer() {
+		System.out.println("=====CUSTOMER FUNCTION=====");
+		System.out.println("\t1. Get all customer");
+		System.out.println("\t2. Add new customer");
+		System.out.println("\t3. Delete customer");
+		System.out.println("\t4. Update customer");
+		System.out.println("\t5. Return");
+	}
+
+	/**
+	 * EMPLOYEE MENU
+	 */
+	public void showMenuEmployee() {
+		System.out.println("=====EMPLOYEE FUNCTION=====");
+		System.out.println("\t1. Get all employee");
+		System.out.println("\t2. Find employee");
+		System.out.println("\t3. Add new employee");
+		System.out.println("\t4. Return");
+	}
+
+	/**
+	 * ORDER MENU
+	 */
+	public void showMenuOrder() {
+		System.out.println("=====ORDER FUNCTION=====");
+		System.out.println("\t1. Get all order by a specific customer");
+		System.out.println("\t2. Show total price of all orders");
+		System.out.println("\t3. Find order");
+		System.out.println("\t4. Update total price of a order");
+		System.out.println("\t5. Add order");
+		System.out.println("\t6. Return");
+	}
+
+	/**
+	 * LINEITEM MENU
+	 */
+	public void showMenuLineItem() {
+		System.out.println("=====LINEITEM FUNCTION=====");
+		System.out.println("\t1. Get all item by a specific order");
+		System.out.println("\t2. Add new lineitem for a order");
+		System.out.println("\t3. Return");
+	}
+
+	public void SaleManagementMenu() {
+		System.out.println("==========SaleManagement FUNCTION==========");
+		System.out.println("1) Add a customer into the database. \r\n"
+				+ "2) Create an order into the database.\r\n"
+				+ "3) Create a lineitem into the database .\r\n"
+				+ "4) List all orders consist of order id, order date, customer id, employee id, total for a customer.\r\n"
+				+ "5) List all lineitems for an order.\r\n"
+				+ "6) List all customers consist of customer id, customer name in the database.\r\n"
+				+ "7) List customer name, supervisor name and all orders of this customer.\r\n"
+				+ "8) Compute order total (named as total_price) for a given order id.\r\n"
+				+ "9) Update a customer in the database.\r\n"
+				+ "10) Delete a customer from the database.\r\n"
+				+ "11) Exit.\n");		
+	}
 }
