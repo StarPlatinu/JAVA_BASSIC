@@ -10,23 +10,23 @@ import java.util.List;
 import fa.training.dao.EmployeeDao;
 import fa.training.entities.Employee;
 
-public class EmployeeDaoImpl implements EmployeeDao{
+public class EmployeeDaoImpl implements EmployeeDao {
 
 	@Override
 	public boolean insert(Employee employee) throws SQLException {
-		if(employee == null) {
+		if (employee == null) {
 			return false;
-		}		
+		}
 		PreparedStatement statement = null;
 		boolean result = false;
-		
+
 		String sqlQuery = "INSERT INTO Employee VALUES (?, ?, ?)";
-		try(Connection connection = DatabaseConnection.DBConnection.getConnection()){
-		    statement = connection.prepareStatement(sqlQuery);
+		try (Connection connection = DatabaseConnection.DBConnection.getConnection()) {
+			statement = connection.prepareStatement(sqlQuery);
 			statement.setString(1, employee.getEmployeeName());
 			statement.setDouble(2, employee.getSalary());
 			statement.setInt(3, employee.getSpvrId());
-			result = statement.executeUpdate()> 0;
+			result = statement.executeUpdate() > 0;
 		} catch (SQLException e) {
 			e.printStackTrace();
 			System.out.printf("[ERROR] ", e);
@@ -38,20 +38,20 @@ public class EmployeeDaoImpl implements EmployeeDao{
 
 	@Override
 	public Employee getEmployeeById(int id) throws SQLException {
-		if(id<0) {
+		if (id < 0) {
 			return null;
 		}
 		PreparedStatement statement = null;
 		ResultSet rs = null;
 		String sqlQuery = "SELECT EmployeeId, EmployeeName, Salary, SupervisorId FROM Employee WHERE EmployeeId = ?";
-		try(Connection connection = DatabaseConnection.DBConnection.getConnection()){
-		    statement = connection.prepareStatement(sqlQuery);
+		try (Connection connection = DatabaseConnection.DBConnection.getConnection()) {
+			statement = connection.prepareStatement(sqlQuery);
 			statement.setInt(1, id);
-		    rs = statement.executeQuery();
-			if(rs.next()) {
+			rs = statement.executeQuery();
+			if (rs.next()) {
 				return new Employee(rs.getInt(1), rs.getString(2), rs.getDouble(3), rs.getInt(4));
 			}
-		}catch (SQLException e) {
+		} catch (SQLException e) {
 			e.printStackTrace();
 			System.out.printf("[ERROR] ", e);
 		} finally {
@@ -64,12 +64,12 @@ public class EmployeeDaoImpl implements EmployeeDao{
 	public List<Employee> getAll() throws SQLException {
 		String sqlQuery = "SELECT EmployeeId, EmployeeName, Salary, SupervisorId FROM Employee";
 		PreparedStatement statement = null;
-		ResultSet rs = null;	
+		ResultSet rs = null;
 		List<Employee> employees = new ArrayList<Employee>();
-		try(Connection connection = DatabaseConnection.DBConnection.getConnection()){
-			 statement = connection.prepareStatement(sqlQuery);
-			 rs = statement.executeQuery();
-			while(rs.next()) {
+		try (Connection connection = DatabaseConnection.DBConnection.getConnection()) {
+			statement = connection.prepareStatement(sqlQuery);
+			rs = statement.executeQuery();
+			while (rs.next()) {
 				Employee employee = new Employee(rs.getInt(1), rs.getString(2), rs.getDouble(3), rs.getInt(4));
 				employees.add(employee);
 			}
