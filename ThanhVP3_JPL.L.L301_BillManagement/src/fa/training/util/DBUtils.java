@@ -16,7 +16,7 @@ public class DBUtils {
 			properties.load(DBUtils.class.getResourceAsStream("/dbconfig.properties"));
 			String driver = properties.getProperty("driver");
 			String url = properties.getProperty("url");
-			String userName = properties.getProperty("usenlame");
+			String userName = properties.getProperty("userName");
 			String password = properties.getProperty("password");
 			Class.forName(driver);
 			connection = DriverManager.getConnection(url, userName, password);
@@ -42,5 +42,13 @@ public class DBUtils {
 			instance = new DBUtils();
 		}
 		return instance;
+	}
+	public static void main(String[] args) {
+		DBUtils conn = new DBUtils();
+		if(conn.getConnection()!=null) {
+		 System.out.println("Ok");
+		}else {
+			System.out.println("Not Ok");
+		}
 	}
 }
