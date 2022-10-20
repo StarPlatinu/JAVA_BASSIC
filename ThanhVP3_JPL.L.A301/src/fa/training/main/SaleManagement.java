@@ -1,11 +1,16 @@
 package fa.training.main;
 
 import java.sql.Date;
+import java.sql.SQLException;
 import java.util.List;
 
+import fa.training.daoimpl.CusSuperDaoImpl;
+import fa.training.daoimpl.TotalPriceImpl;
+import fa.training.entities.CusSuper;
 import fa.training.entities.Customer;
 import fa.training.entities.LineItem;
 import fa.training.entities.Order;
+import fa.training.entities.TotalPrice;
 import fa.training.services.CustomerService;
 import fa.training.services.EmployeeService;
 import fa.training.services.LineItemService;
@@ -15,7 +20,7 @@ import fa.training.utils.*;
 
 public class SaleManagement {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SQLException {
 
 		CustomerService cs = new CustomerService();
 		OrderService os = new OrderService();
@@ -168,20 +173,58 @@ public class SaleManagement {
 			case 7:
 				System.out.println(
 						"----------List customer name, supervisor name and all orders of this customer----------");
-                
+				int cid = v.inputInt("Enter customerId: ", 0, Integer.MAX_VALUE);
+				List<CusSuper> list = new CusSuperDaoImpl().getCusSuperByCusId(cid);
+				if (list != null) {
+					for (CusSuper cusSuper : list) {
+						System.out.println(cusSuper.toString());
+					}
+				} else {
+					System.out.println("Don't have data to display");
+				}
 				break;
 			case 8:
-				System.out
-						.println("----------Compute order total (named as total_price) for a given order id----------");
-
+				System.out.println(
+						"----------Compute order total (named as total_price) for a given Customer id----------");
+				int cusId = v.inputInt("Enter customerId: ", 0, Integer.MAX_VALUE);
+				TotalPrice t = new TotalPriceImpl().getTotalPrice(cusId);
+				System.out.println(t.toString());
 				break;
 			case 9:
 				System.out.println("----------Update a customer in the database----------");
-
+				int customerIdUpdate = v.inputInt("Enter id customer you want to update: ", 0, Integer.MAX_VALUE);
+				flag = false;
+				while (flag = (cs.getCustomerById(customerIdUpdate) == null)) {
+					System.out.println("Can not find customer!!");
+					System.out.println("input y/Y to continue or n/N to exits= to main screen.");
+					if (!v.checkInputYN()) {
+						break;
+					}
+					System.out.print("Enter id customer you want to update: ");
+					customerIdUpdate = v.inputInt("Enter id customer you want to update: ", 0, Integer.MAX_VALUE);
+				}
+				if (!flag) {
+					String newCustomerName = v.inputString("Enter new name for customer: ", "[A-Za-z\\\\s]+");
+					Customer updateCustomer = new Customer(customerIdUpdate, newCustomerName);
+					System.out.println(cs.updateCustomer(updateCustomer) ? "Update successfully" : "Update failed");
+				}
 				break;
 			case 10:
 				System.out.println("----------Delete a customer from the database----------");
-
+				int customerIdDelete = v.inputInt("Enter id customer you want to delete: ", 0, Integer.MAX_VALUE);
+				flag = false;
+				while (flag = (cs.getCustomerById(customerIdDelete) == null)) {
+					System.out.println("Can not find customer!!");
+					System.out.println("input y/Y to continue or n/N to exits= to main screen.");
+					if (!v.checkInputYN()) {
+						break;
+					}
+					System.out.print("Enter id customer you want to delete: ");
+					customerIdDelete = v.inputInt("Enter id customer you want to delete: ", 0, Integer.MAX_VALUE);
+				}
+				if (!flag) {
+					System.out.println(cs.deleteCustomer(customerIdDelete) ? "Delete failed !" : "Delete successfully");
+				}
 				break;
 			case 11:
 				System.out.println("Good Bye!!");
