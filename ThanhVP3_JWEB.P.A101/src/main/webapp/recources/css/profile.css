@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.user-option {
+    position: relative;
+}
+
+.option {
+    background-color: #ffff;
+    border: 2px solid rgb(231, 231, 231);
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    min-width: 150px;
+    min-height: 70px;
+    z-index: 10;
+}
+
+.option .option-item {
+    list-style: none;
+    padding: 5px 10px 5px 10px;
+}
+
+.option .option-item .option-link {
+    text-decoration: none;
+    color: black;
+}
+
+.option .option-item:hover {
+    background-color: gray;
+}
+
+input {
+    width: 80%;
+}
+
+b {
+    font-size: 12px;
+}
+
+
+.bcolor-red{
+    border: 1px solid red!important;
+}
+
+.color-red{
+    color: red;
+}

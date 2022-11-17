@@ -17,7 +17,7 @@
 --><!-- Note:  A "Server" is not itself a "Container", so you may not
      define subcomponents such as "Valves" at this level.
      Documentation at /docs/config/server.html
- --><Server port="0" shutdown="SHUTDOWN">
+ --><Server port="8005" shutdown="SHUTDOWN">
   <Listener className="org.apache.catalina.startup.VersionLoggerListener"/>
   <!-- Security listener. Documentation at /docs/config/listeners.html
   <Listener className="org.apache.catalina.security.SecurityListener" />
@@ -57,13 +57,13 @@
          and responses are returned. Documentation at :
          HTTP Connector: /docs/config/http.html
          AJP  Connector: /docs/config/ajp.html
-         Define a non-SSL/TLS HTTP/1.1 Connector on port 9999
+         Define a non-SSL/TLS HTTP/1.1 Connector on port 8080
     -->
-    <Connector connectionTimeout="20000" port="9999" protocol="HTTP/1.1" redirectPort="8443"/>
+    <Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/>
     <!-- A "Connector" using the shared thread pool-->
     <!--
     <Connector executor="tomcatThreadPool"
-               port="9999" protocol="HTTP/1.1"
+               port="8080" protocol="HTTP/1.1"
                connectionTimeout="20000"
                redirectPort="8443" />
     -->
@@ -85,11 +85,11 @@
     </Connector>
     -->
 
-    <!-- Define an AJP 1.3 Connector on port 9909 -->
+    <!-- Define an AJP 1.3 Connector on port 8009 -->
     <!--
     <Connector protocol="AJP/1.3"
                address="::1"
-               port="9909"
+               port="8009"
                redirectPort="8443" />
     -->
 
@@ -134,7 +134,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\thanh\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\thanh\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\CoolWebsite" path="/CoolWebsite" reloadable="true" source="org.eclipse.jst.jee.server:CoolWebsite"/><Context docBase="C:\Users\thanh\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\DemoServlet" path="/DemoServlet" reloadable="true" source="org.eclipse.jst.jee.server:DemoServlet"/></Host>
+      <Context docBase="C:\Users\thanh\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\thanh\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ThanhVP3_JWEB.P.A101" path="/ThanhVP3_JWEB.P.A101" reloadable="true" source="org.eclipse.jst.jee.server:ThanhVP3_JWEB.P.A101"/><Context docBase="C:\Users\thanh\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Shopping-Cart" path="/Shopping-Cart" reloadable="true" source="org.eclipse.jst.jee.server:Shopping-Cart"/></Host>
     </Engine>
   </Service>
 </Server>

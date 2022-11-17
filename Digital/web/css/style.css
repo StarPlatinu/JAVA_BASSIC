@@ -1,0 +1,100 @@
+body
+{
+    font-family:sans-serif;
+    background-color: #E7E7E7;
+}
+.container
+{
+    background-image: url(../images/bg.jpg) ;
+    background-repeat: repeat-y;
+    width: 886px;
+    height: auto;
+    margin: 0 auto;    
+}
+.content
+{
+    width: 760px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+}
+.main
+{
+    width: 485px;
+    padding: 20px;
+    border-right: dotted 2px;
+    border-color: #e0e0e0;    
+}
+.main a
+{
+    text-decoration: none;
+    color: #42554e;
+    font-weight: bold;
+}
+
+.tittle
+{
+    font-size: 18px;
+    color: #42554e;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.signature
+{
+    float:right;
+    color: #42554e;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.image img
+{
+    width: 400px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.text{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.icon1{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/comment.gif);
+    background-repeat: no-repeat;
+}
+.icon2{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background-image: url(../images/timeicon.gif);
+    background-repeat: no-repeat;
+}
+.image_search img
+{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.text_search
+{   
+    font-size: 13px;
+}
+.paging
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.paging a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid;
+}
+.active{
+    color: red !important;
+    pointer-events: none;
+}
+
