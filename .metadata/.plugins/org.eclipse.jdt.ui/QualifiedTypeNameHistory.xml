@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="fa.training.util.SQLCommand"/>
-    <fullyQualifiedTypeName name="fa.training.dao.BillDAOImpl"/>
-    <fullyQualifiedTypeName name="fa.training.dao.ItemDAOImpl"/>
-    <fullyQualifiedTypeName name="fa.training.dao.BillDAO"/>
-    <fullyQualifiedTypeName name="fa.training.dao.ItemDAO"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
-    <fullyQualifiedTypeName name="fa.training.util.DBUtils"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="fa.training.util.DBConnection"/>
     <fullyQualifiedTypeName name="fa.training.util.DatabaseConnection"/>
@@ -31,7 +24,6 @@
     <fullyQualifiedTypeName name="fa.training.dao.TotalPriceDao"/>
     <fullyQualifiedTypeName name="fa.training.daoimpl.TotalPriceImpl"/>
     <fullyQualifiedTypeName name="fa.training.entities.TotalPrice"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="fa.training.entities.Person"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
@@ -50,14 +42,22 @@
     <fullyQualifiedTypeName name="fa.training.entities.CusSuper"/>
     <fullyQualifiedTypeName name="fa.training.daoimpl.CusSuperDaoImpl"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="dao.UserDao"/>
     <fullyQualifiedTypeName name="model.User"/>
     <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="model.Product"/>
+    <fullyQualifiedTypeName name="dao.DBConnection"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="org.apache.catalina.filters.ExpiresFilter.XHttpServletResponse"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="dao.MemberDao"/>
+    <fullyQualifiedTypeName name="model.Member"/>
 </qualifiedTypeNameHistroy>

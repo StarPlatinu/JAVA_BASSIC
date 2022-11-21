@@ -1,6 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page import="dao.DBConnection" %>
+<%@ page import="model.User" %>
+
+<%
+User auth = (User)request.getSession().getAttribute("auth");
+if(auth!=null){
+	request.setAttribute("auth", auth);
+}
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +20,7 @@
 <body>
 <%@include file ="../includes/navbar.jsp" %>
 <h1>
-<%DBConnection.SQLCONNECTION.getConnection();%>
+<%out.print(DBConnection.SQLCONNECTION.getConnection());%>
 </h1>
 <%@include file ="../includes/footer.jsp" %>
 </body>
