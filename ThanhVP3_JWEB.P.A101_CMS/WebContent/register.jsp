@@ -16,25 +16,26 @@
         <p class="register">
             Register
         </p>
-        <div class="register-box">
+        <form action="register" method="post" class="register-box">
             <div class="w-75">
                 <label id="error_msg_username" style="color:red;display: block;margin: 10px 0px 0px 10px;"></label>
-                <input id="username"type="text" placeholder="User name" minlength="3" maxlength="30">
+                <input name="username" id="username"type="text" placeholder="User name" minlength="3" maxlength="30">
                 <label id="error_msg_email" style="color:red;display: block;margin: 10px 0px 0px 10px;"></label>
-                <input id="email" type="text" placeholder="E-mail" minlength="5">
+                <input name = "email" id="email" type="text" placeholder="E-mail" minlength="5">
                 <label id="error_msg_password" style="color:red;display: block;margin: 10px 0px 0px 10px;"></label>
-                <input id="password" type="password" placeholder="Password" minlength="8" maxlength="30">
+                <input name="password" id="password" type="password" placeholder="Password" minlength="8" maxlength="30">
                 <label id="error_msg_re-password" style="color:red;display: block;margin: 10px 0px 0px 10px;"></label>
-                <input id="re-password" type="password" placeholder="Re Password" minlength="8" maxlength="30">
+                <input name="repassword" id="re-password" type="password" placeholder="Re Password" minlength="8" maxlength="30">
             </div>
             <div id="register" class="btn-register" >
-                <span>Register</span>
+                <input type="submit" style="padding: 5px 70px;border-radius: 7px;border: none;background-color: rgb(0, 180, 84);margin: 11px;" value="Register"/>
             </div>
             <div class="login" >
                 <a  href="login.jsp">Click here to login</a>
             </div>
+             </form>
         </div>
-    </div>
+   
     <script src="recources/js/register.js"></script>
 </body>
 </html>

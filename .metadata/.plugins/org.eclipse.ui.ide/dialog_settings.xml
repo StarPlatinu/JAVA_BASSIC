@@ -31,6 +31,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="false"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\thanh\OneDrive - Đại học FPT- FPT University\Desktop\ShoppingOnline"/>
 			<item value="C:\Users\thanh\Downloads\demo_project_servlet"/>
 			<item value="C:\Users\thanh\eclipse-workspace\J1.L.P0022"/>
 			<item value="C:\Users\thanh\eclipse-workspace\BinarySearchTree\bin\BinarySearchTree"/>
