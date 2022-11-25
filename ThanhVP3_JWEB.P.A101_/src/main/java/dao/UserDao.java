@@ -49,5 +49,27 @@ public class UserDao {
 		}
 		return null;
 	}
+	
+	public User getAUserEmail(String email, String password) {
+		PreparedStatement prepareStatement = null;
+		ResultSet rs = null;
+
+		try {
+			Connection connection = DBConnection.SQLCONNECTION.getConnection();
+			prepareStatement = connection.prepareStatement("select * from Users where Email = ? and Password = ?");
+			prepareStatement.setString(1, email);
+			prepareStatement.setString(2, password);
+			rs = prepareStatement.executeQuery();
+			while (rs.next()) {
+				User user = new User(rs.getString(2), rs.getString(3), rs.getString(4));
+				return user;
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			DBConnection.closeResource(null, prepareStatement, rs);
+		}
+		return null;
+	}
 
 }
