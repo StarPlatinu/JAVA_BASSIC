@@ -74,7 +74,7 @@ public class ProfileServlet extends HttpServlet {
 		}
 		else {
 		pd.updateProfile(m,uname);
-		response.sendRedirect("viewcontent");
+		response.sendRedirect("search?data=");
 		}
 	}
 

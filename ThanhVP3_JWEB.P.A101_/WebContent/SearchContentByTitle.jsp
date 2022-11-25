@@ -26,6 +26,12 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+
+<style type="text/css">
+      .pagination a:hover{
+      background-color: green;
+      }
+</style>
 </head>
 <body>
 	<%@include file="includes/navbar.jsp"%>
@@ -72,10 +78,12 @@
 						<div id="profile-input" class="bg-white border p-3">
 							<table id="table-data" class="table table-bordered">
 								<thead>
-									<tr>								
+									<tr>
 										<th>Title</th>
 										<th>Brief</th>
 										<th>Created Date</th>
+										<th>Update</th>
+										<th>Delete</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -98,30 +106,46 @@
 										</tr>
 									</c:forEach>
 -->
+
 									<%
 									List<Content> list = new ArrayList<>();
-								    list = (List<Content>) request.getAttribute("list");
+									list = (List<Content>) request.getAttribute("listPerPage");
 									for (Content el : list) {
 									%>
 									<tr>
 										<td><%=el.getTitle()%></td>
-										<td><%=el.getBrief()%></td>							
+										<td><%=el.getBrief()%></td>
 										<td><%=el.getCreatedDate()%></td>
+										<td><a href="update?tilem=<%=el.getTitle()%>"><i class="fas fa-cut"></i></a></td>
+										<td><a href="delete?tile=<%=el.getTitle()%>"><i class="fas fa-eraser"></i></a></td>
+										<td></td>
 									</tr>
 									<%
 									}
 									%>
-
 								</tbody>
 							</table>
 						</div>
 					</div>
 					<br>
-					<ul class="pagination">
-						<li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
-						<li class="page-item active"><a class="page-link" href="#">1</a></li>
-						<li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
-					</ul>
+					<c:set var="page" value="${requestScope.page }" />
+					<nav aria-label="Page navigation example">
+						<ul class="pagination">
+							<li class="page-item"><a class="page-link" href="#"
+								aria-label="Previous"> <span aria-hidden="true">&laquo;</span>
+									<span class="sr-only">Previous</span>
+							</a></li>
+							<c:forEach begin="${1}" end="${requestScope.num}" var="i">
+								<!-- ${i==page?"active":""} -->
+								<li class="page-item"><a class="page-link"
+									href="search?data=${data}&&page=${i}">${i}</a></li>
+							</c:forEach>
+							<li class="page-item"><a class="page-link" href="#"
+								aria-label="Next"> <span aria-hidden="true">&raquo;</span> <span
+									class="sr-only">Next</span>
+							</a></li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 

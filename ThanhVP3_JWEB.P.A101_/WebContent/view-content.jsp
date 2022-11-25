@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page import="java.util.List"%>
+<%@ page import="java.util.ArrayList"%>
+<%@ page import="model.Content"%>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -79,31 +83,29 @@
                 <table id="table-data" class="table table-bordered" >
                    <thead>
                     <tr>
-                        <th>#</th>
-                        <th>Title</th>
-                        <th>Brief</th>
-                        <th>Created Date</th>
+                        	<th>Title</th>
+										<th>Brief</th>
+										<th>Created Date</th>
+										<th>Update</th>
+										<th>Delete</th>
                     </tr>
                    </thead>
                    <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam odio quos sit a in saepe perferendis incidunt, quae, nostrum distinctio error libero, optio eveniet inventore vero consequuntur similique quia ipsum.</td>
-                        <td>25/10/2020</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea pariatur ratione et autem dignissimos aspernatur quas earum reprehenderit suscipit consequatur eaque aperiam, vel nemo, harum, eius consequuntur perferendis sapiente dolores.</td>
-                        <td>25/10/2020</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</td>
-                        <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis voluptate aperiam quod non perferendis itaque architecto nemo excepturi repellat blanditiis, iste, corporis nesciunt quae, eum quisquam deleniti aut dicta atque.</td>
-                        <td>25/10/2020</td>
-                    </tr>
+                  		<%
+									List<Content> list = new ArrayList<>();
+									list = (List<Content>) request.getAttribute("list");
+									for (Content el : list) {
+									%>
+									<tr>
+										<td><%=el.getTitle()%></td>
+										<td><%=el.getBrief()%></td>
+										<td><%=el.getCreatedDate()%></td>
+										<td><a href="update?tilem=<%=el.getTitle()%>"><i class="fas fa-cut"></i></a></td>
+										<td><a href="delete?tile=<%=el.getTitle()%>"><i class="fas fa-eraser"></i></a></td>								
+									</tr>
+									<%
+									}
+									%>
                    </tbody>
                 </table>
               </div>
@@ -111,7 +113,7 @@
             <br>
             <ul class="pagination">
               <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
-              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active"><a class="page-link" href="#">All</a></li>
               <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
             </ul>
           </div>

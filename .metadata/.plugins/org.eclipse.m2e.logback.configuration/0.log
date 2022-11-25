@@ -7225,3 +7225,383 @@ Caused by: java.lang.ExceptionInInitializerError: Cannot access defaults field o
 2022-11-24 22:21:14,489 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-11-24 22:21:14,489 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
 2022-11-24 22:21:14,493 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:21:14,493 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-24 22:29:42,719 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:29:42,719 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-24 22:29:42,723 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:29:42,724 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-24 22:34:07,117 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:34:07,117 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-24 22:34:07,121 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:34:07,122 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-24 22:34:18,165 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:34:18,166 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-24 22:34:18,168 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:34:18,168 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-24 22:35:09,626 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:35:09,627 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-24 22:35:09,638 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:35:09,640 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-24 22:35:59,778 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:35:59,778 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-24 22:35:59,782 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:35:59,782 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-24 22:39:18,790 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:39:18,790 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-24 22:39:18,792 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:39:18,792 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-24 22:40:01,552 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:40:01,553 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-24 22:40:01,561 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:40:01,562 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-24 22:42:08,322 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:42:08,322 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-24 22:42:08,325 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-24 22:42:08,326 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 06:41:11,236 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:41:11,239 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 06:41:11,242 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:41:11,242 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 06:42:08,206 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:42:08,206 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 06:42:08,211 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:42:08,212 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 06:42:27,030 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:42:27,031 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 06:42:27,036 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:42:27,037 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 06:50:43,165 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:50:43,167 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 06:50:43,170 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:50:43,171 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 06:50:46,989 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:50:46,990 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 06:50:46,994 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:50:46,995 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 06:51:52,231 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:51:52,232 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 06:51:52,236 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:51:52,237 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 06:52:56,665 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:52:56,665 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 06:52:56,668 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:52:56,668 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 06:54:43,245 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:54:43,246 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 06:54:43,249 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:54:43,249 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 06:56:42,533 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:56:42,534 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 06:56:42,538 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:56:42,538 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 06:58:27,805 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:58:27,805 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 06:58:27,808 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:58:27,808 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 06:58:43,750 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:58:43,751 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 06:58:43,757 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:58:43,758 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 06:58:56,980 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:58:56,981 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 06:58:56,983 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 06:58:56,984 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 07:00:14,097 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 07:00:14,098 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 07:00:14,102 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 07:00:14,103 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 07:29:27,018 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 07:29:27,019 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 07:29:27,021 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 07:29:27,021 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 07:29:52,559 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 07:29:52,559 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 07:29:52,561 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 07:29:52,562 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 08:04:35,054 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:04:35,055 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 08:04:35,057 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:04:35,057 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 08:05:08,025 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:05:08,025 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 08:05:08,027 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:05:08,027 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 08:05:29,155 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:05:29,156 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 08:05:29,158 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:05:29,159 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 08:05:45,239 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:05:45,240 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 08:05:45,248 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:05:45,249 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 08:55:43,687 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:55:43,690 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 08:55:43,692 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:55:43,692 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 08:56:33,391 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:56:33,391 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 08:56:33,394 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:56:33,395 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 08:56:42,900 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:56:42,900 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 08:56:42,902 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:56:42,903 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 08:57:33,482 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:57:33,483 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 08:57:33,486 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 08:57:33,486 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:05:19,567 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:05:19,568 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:05:19,569 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:05:19,569 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:06:04,430 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:06:04,431 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:06:04,435 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:06:04,436 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:06:37,196 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:06:37,197 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:06:37,198 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:06:37,198 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:07:49,715 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:07:49,715 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:07:49,718 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:07:49,718 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:10:09,528 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:10:09,529 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:10:09,531 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:10:09,532 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:11:05,464 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:11:05,464 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:11:05,466 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:11:05,466 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:11:49,013 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:11:49,014 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:11:49,014 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:11:49,015 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:11:54,222 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:11:54,223 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:11:54,226 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:11:54,227 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:16:27,601 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:16:27,602 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:16:27,607 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:16:27,607 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:21:48,299 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:21:48,299 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:21:48,303 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:21:48,303 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:22:32,775 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:22:32,776 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:22:32,778 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:22:32,779 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:29:08,954 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:29:08,955 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:29:08,957 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:29:08,957 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:29:59,655 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:29:59,655 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:29:59,656 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:29:59,656 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:30:52,690 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:30:52,690 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:30:52,691 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:30:52,692 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:32:32,671 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:32:32,671 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:32:32,673 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:32:32,673 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:34:41,058 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:34:41,058 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:34:41,060 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:34:41,061 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:39:46,217 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:39:46,218 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:39:46,223 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:39:46,224 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:41:12,123 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:41:12,123 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:41:12,125 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:41:12,125 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:41:34,273 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:41:34,273 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:41:34,275 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:41:34,275 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:47:47,344 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:47:47,344 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:47:47,346 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:47:47,346 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:49:35,357 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:49:35,357 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:49:35,359 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:49:35,360 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:49:57,943 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:49:57,943 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:49:57,945 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:49:57,946 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:52:01,270 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:52:01,271 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:52:01,272 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:52:01,273 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:53:08,993 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:53:08,993 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:53:08,995 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:53:08,996 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:53:39,401 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:53:39,401 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:53:39,403 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:53:39,403 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:53:43,291 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:53:43,291 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:53:43,293 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:53:43,293 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:53:51,617 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:53:51,617 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:53:51,618 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:53:51,619 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:53:56,438 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:53:56,438 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:53:56,441 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:53:56,441 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:56:31,705 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:56:31,705 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:56:31,708 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:56:31,708 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:56:37,903 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:56:37,903 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:56:37,905 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:56:37,905 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:58:12,929 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:58:12,929 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:58:12,931 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:58:12,931 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:59:36,902 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:59:36,903 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:59:36,905 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:59:36,905 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 09:59:50,150 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:59:50,150 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 09:59:50,153 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 09:59:50,153 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:01:54,004 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:01:54,004 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:01:54,006 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:01:54,007 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:02:10,868 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:02:10,868 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:02:10,869 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:02:10,869 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:08:32,495 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:08:32,495 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:08:32,497 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:08:32,498 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:09:51,840 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:09:51,840 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:09:51,844 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:09:51,844 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:10:48,885 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:10:48,885 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:10:48,887 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:10:48,888 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:12:24,459 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:12:24,459 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:12:24,460 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:12:24,461 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:13:15,239 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:13:15,239 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:13:15,241 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:13:15,241 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:13:25,203 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:13:25,204 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:13:25,207 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:13:25,208 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:13:50,924 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:13:50,924 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:13:50,926 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:13:50,926 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:14:01,340 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:14:01,341 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:14:01,343 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:14:01,343 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:19:05,597 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:19:05,597 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:19:05,599 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:19:05,599 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:19:18,150 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:19:18,150 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:19:18,151 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:19:18,151 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:19:26,797 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:19:26,798 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:19:26,804 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:19:26,805 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:19:50,291 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:19:50,291 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:19:50,293 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:19:50,293 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:20:02,352 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:20:02,352 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:20:02,353 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:20:02,354 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:22:54,201 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:22:54,202 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:22:54,203 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:22:54,204 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:26:53,573 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:26:53,573 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:26:53,575 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:26:53,575 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:29:14,489 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:29:14,489 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:29:14,490 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:29:14,490 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:30:19,215 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:30:19,215 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:30:19,217 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:30:19,217 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:31:38,721 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:31:38,722 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:31:38,724 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:31:38,725 [Worker-123: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:32:02,318 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:32:02,318 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:32:02,319 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:32:02,319 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:32:20,837 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:32:20,837 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:32:20,839 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:32:20,840 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:34:25,247 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:34:25,248 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:34:25,249 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:34:25,249 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:34:39,944 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:34:39,945 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:34:39,945 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:34:39,946 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:35:52,631 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:35:52,632 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:35:52,633 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:35:52,633 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:35:58,898 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:35:58,899 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:35:58,900 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:35:58,901 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:36:07,025 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:36:07,026 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:36:07,028 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:36:07,028 [Worker-126: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:43:10,134 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:43:10,135 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:43:10,136 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:43:10,137 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:44:06,296 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:44:06,297 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:44:06,298 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:44:06,298 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 10:44:55,005 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:44:55,005 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\main\resources
+2022-11-25 10:44:55,008 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-25 10:44:55,009 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\thanh\eclipse-workspace\ThanhVP3_JWEB.P.A101_\src\test\resources
+2022-11-25 13:20:24,392 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-25 14:37:51,136 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-25 15:29:49,893 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

@@ -33,7 +33,25 @@ public class Search extends HttpServlet {
 		String title = "";
 	    title = request.getParameter("data");	
 		List<Content> list = cd.getContentByTitle(title);
-		request.setAttribute("list", list);
+		int page, numperpage = 3;
+		int size = list.size();
+		int num = (size%3==0?(size/3):((size/3)+1));//So trang
+		String xpage = request.getParameter("page");
+		if(xpage==null) {
+			page = 1;
+		}else {
+			page=Integer.parseInt(xpage);
+		}
+		int start,end;
+		start = (page - 1)*numperpage;
+		end = Math.min(page*numperpage, size);
+		List<Content> listPerPage = cd.getListByPage(list, start, end);
+		
+		request.setAttribute("listPerPage", listPerPage);
+		request.setAttribute("data", title);
+		request.setAttribute("page", page);
+		request.setAttribute("num", num);
+		
 		request.getRequestDispatcher("SearchContentByTitle.jsp").forward(request, response);
 	}
 
