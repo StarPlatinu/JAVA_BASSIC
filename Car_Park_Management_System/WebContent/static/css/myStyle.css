@@ -1,0 +1,11 @@
+body{
+    font-size: 1.25rem;
+}
+.dropdown-menu.show {
+    display: contents!important;
+}
+
+.table1 {
+    border-collapse: separate;
+    border-spacing: 50px 20px;
+}
