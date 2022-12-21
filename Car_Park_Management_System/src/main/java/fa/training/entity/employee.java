@@ -13,15 +13,15 @@ import lombok.ToString;
 @ToString
 @Builder
 public class employee {
-	private int employeeId;
-    private String account;
-	private String department;
-	private String employeeAddress;
-	private String employeeBirthdate;
-	private String employeeEmail;
-	private String employeeName;
-	private String employeePhone;
-	private String password; 
-	private char sex;
-	private int role;
+	private int employeeId ;
+    private String account ;
+	private String department ;
+	private String employeeAddress ;
+	private String employeeBirthdate ;
+	private String employeeEmail ;
+	private String employeeName ;
+	private String employeePhone ;
+	private String password ; 
+	private String sex ;
+	private int role ;
 }

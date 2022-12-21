@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="fa.training.services.WorkerManagement"/>
-    <fullyQualifiedTypeName name="fa.training.utils.Validation"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="fa.training.entities.Worker"/>
-    <fullyQualifiedTypeName name="fa.training.dao.CusSuperDao"/>
-    <fullyQualifiedTypeName name="fa.training.entities.CusSuper"/>
-    <fullyQualifiedTypeName name="fa.training.daoimpl.CusSuperDaoImpl"/>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
-    <fullyQualifiedTypeName name="dao.DBConnection"/>
-    <fullyQualifiedTypeName name="org.apache.catalina.filters.ExpiresFilter.XHttpServletResponse"/>
-    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletResponse"/>
-    <fullyQualifiedTypeName name="dao.MemberDao"/>
-    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
-    <fullyQualifiedTypeName name="dao.UserDao"/>
     <fullyQualifiedTypeName name="jakarta.ws.rs.core.Response"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="model.User"/>
@@ -27,7 +13,6 @@
     <fullyQualifiedTypeName name="model.Content"/>
     <fullyQualifiedTypeName name="java.io.Console"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletRequest"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="dao.ContentDao"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
@@ -47,17 +32,32 @@
     <fullyQualifiedTypeName name="model.SubCategory"/>
     <fullyQualifiedTypeName name="model.StatusProduct"/>
     <fullyQualifiedTypeName name="dao.SubCategoryDAO"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="model.Category"/>
     <fullyQualifiedTypeName name="context.DBConnection"/>
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="fa.training.dao.tripDao"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="fa.training.entity.bookingoffice"/>
     <fullyQualifiedTypeName name="fa.training.dao.BookingDao"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="fa.training.entity.bookingOffice"/>
+    <fullyQualifiedTypeName name="fa.training.util.DBConnection"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="fa.training.entity.car"/>
+    <fullyQualifiedTypeName name="fa.training.entity.ticket"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="fa.training.dao.ticketDao"/>
+    <fullyQualifiedTypeName name="jakarta.websocket.Session"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="fa.training.util.Validation"/>
+    <fullyQualifiedTypeName name="fa.training.dao.carDao"/>
+    <fullyQualifiedTypeName name="fa.training.dao.tripDao"/>
+    <fullyQualifiedTypeName name="fa.training.entity.parkingLot"/>
+    <fullyQualifiedTypeName name="fa.training.dao.parkingDao"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="fa.training.entity.trip"/>
+    <fullyQualifiedTypeName name="fa.training.dao.employeeDao"/>
+    <fullyQualifiedTypeName name="fa.training.entity.employee"/>
 </qualifiedTypeNameHistroy>

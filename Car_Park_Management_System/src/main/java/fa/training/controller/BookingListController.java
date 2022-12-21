@@ -26,6 +26,14 @@ public class BookingListController extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		  HttpServletRequest req = (HttpServletRequest) request;
+	        HttpServletResponse res = (HttpServletResponse) response;
+	        employee emp = (employee) req.getSession().getAttribute("account");
+	        if (emp == null) {
+	            res.sendRedirect("login");
+	        } else {
+	        	  String accountname = emp.getAccount();
+	              request.setAttribute("accountname", accountname);
 		bookingDao bdao = new bookingDao();
 		List<bookingOffice> bookinglist = new ArrayList<>();
 		String name = "";
@@ -52,6 +60,7 @@ public class BookingListController extends HttpServlet {
 		request.setAttribute("num", num);
 		request.setAttribute("data", name);
 		request.getRequestDispatcher("BookingList.jsp").forward(request, response);
+	        }
 	}
 
 	/**

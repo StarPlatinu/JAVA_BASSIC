@@ -55,7 +55,7 @@ public class bookingDao {
 		tripDao tdao = new tripDao();
 		try {
 			Connection connection = DBConnection.SQLCONNECTION.getConnection();
-			prepareStatement = connection.prepareStatement("Select * from bookingoffice where officeName like '%"+name+"%'");		
+			prepareStatement = connection.prepareStatement("Select * from bookingoffice where officeName like '%"+name+"%'order by startContractDeadline desc");		
 			rs = prepareStatement.executeQuery();
 			while(rs.next()) {
 				bookingOffice b = bookingOffice.builder()

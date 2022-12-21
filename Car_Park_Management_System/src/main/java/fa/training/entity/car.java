@@ -16,5 +16,5 @@ public class car {
 	private String carColor ;
 	private String carType ;
 	private String company ;
-	private parkingLot parkOb ;
+	private parkingLot park;
 }

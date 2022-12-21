@@ -10,6 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import fa.training.dao.*;
 import fa.training.entity.bookingOffice;
+import fa.training.entity.employee;
+import jakarta.servlet.http.Cookie;
 
 public class AddBookingController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -27,11 +29,21 @@ public class AddBookingController extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+        HttpServletRequest req = (HttpServletRequest) request;
+        HttpServletResponse res = (HttpServletResponse) response;
+        employee emp = (employee) req.getSession().getAttribute("account");
+     
+        if (emp == null) {
+            res.sendRedirect("login");
+        } else {//dang nhap roi
+        String accountname = emp.getAccount();
+        request.setAttribute("accountname", accountname);
 		bookingDao bdao = new bookingDao();
 		List<bookingOffice> bookinglist = new ArrayList<>();
 		bookinglist = bdao.getAll();	
 		request.setAttribute("bookinglist", bookinglist);
 		request.getRequestDispatcher("AddBooking.jsp").forward(request, response);
+        }
 	}
 
 	/**

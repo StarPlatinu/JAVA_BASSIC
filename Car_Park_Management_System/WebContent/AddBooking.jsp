@@ -17,71 +17,16 @@
 </head>
 <body>
 <!-- Header -->
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <a class="navbar-brand" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Booking office</a>
-            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link text-info" href="#">Wellcome username</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-info" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-
+ <%@include file="components/navbarBooking.jsp" %>
 
     <div class="container-fluid">
         <div class="row">
             <!-- Left Content -->
             <div class="col-md-3 left-content bg-light">
-                <div class="carpark text-info">
-                    <a href="#"><i class="fa fa-tachometer" aria-hidden="true"></i> Car park manager </a>
-                </div>
-                <div class="carmanager">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-car" aria-hidden="true"></i> Car manager&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                            <div class="dropdown-menu p-0 bg-light" aria-labelledby="dropdownId" style="border: none;">
-                                <a href="#">&nbsp;&nbsp;<i class="fa fa-list-ul" aria-hidden="true"></i> Car List</a><br>
-                                <a href="#">&nbsp;&nbsp;<i class="fa fa-plus" aria-hidden="true"></i> Add Car</a>
-                            </div>
-                        </li>
-                    </ul>  
-                   </div>
-               <div class="booking">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-bar-chart" aria-hidden="true"></i> Booking office manager&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                        <div class="dropdown-menu p-0 bg-light" aria-labelledby="dropdownId" style="border: none;">
-                            <a href="bookingList">&nbsp;&nbsp;<i class="fa fa-list-ul" aria-hidden="true"></i> Booking Office List</a><br>
-                            <a href="#">&nbsp;&nbsp;<i class="fa fa-plus" aria-hidden="true"></i> Add Booking Office</a>
-                        </div>
-                    </li>
-                </ul>  
-               </div>
-
-              <div class="parking mt-0 pt-0">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Parking lot manager&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-                        <div class="dropdown-menu p-0 bg-light" aria-labelledby="dropdownId" style="border: none;">
-                            <a href="#">&nbsp;&nbsp;<i class="fa fa-list-ul" aria-hidden="true"></i> Parking lot list</a><br>
-                            <a href="#">&nbsp;&nbsp;<i class="fa fa-plus" aria-hidden="true"></i> Add Parking lot</a>
-                        </div>
-                    </li>
-              </div>
-            </ul>  
+                <%@include file="components/dashboardServices.jsp" %>
            </div>
           <!-- Right content -->
-                <div class="col-md-9 right-content">
+                <div class="col-md-9 right-content border">
                   <div class="container p-5">
                    <div class="row">
                     <h1>Add Booking Office</h1>
@@ -94,13 +39,13 @@
                             <tr>
                                 <td><b>Booking office name <br><span class="text-danger">(*)</span></b></td>
                                 <td><input name="officename" class="form-control" id="fullname" type="text" placeholder="Enter booking office name" minlength="3"
-                                        maxlength="30"></td>
+                                        maxlength="30" required="required"></td>
                             </tr>
                             <tr>
                                 <td><b>Trip <span class="text-danger">(*)</span></b></td>
                                 <td><select name="trip" id="inputState" class="form-control">
                                   <c:forEach items="${bookinglist}" var="booking">                           
-                              <option>${booking.tripOb.destination }</option>
+                              <option value="${booking.tripOb.destination}">${booking.tripOb.destination}</option>
                              </c:forEach>
                                 </select>
                           </td>
@@ -108,14 +53,14 @@
                             <tr>
                               <td><b>Phone number <span class="text-danger">(*)</span></b></td>
                               <td><input name="phone" class="form-control" id="fullname" type="text" placeholder="Enter phone number" minlength="3"
-                                      maxlength="30"></td>
+                                      maxlength="30" required="required"></td>
                           </tr>
                           <tr>
                             <td><b>Place <span class="text-danger">(*)</span></b></td>
                             <td>
                             <select name="place" id="inputState" class="form-control">
                              <c:forEach items="${bookinglist}" var="booking">                           
-                              <option>${booking.officeName}</option>
+                              <option value="${booking.officeName}">${booking.officeName}</option>
                              </c:forEach>
                             </select>
                       </td>
@@ -123,7 +68,7 @@
                         <tr >
                           <td><b>Price<span class="text-danger">(*)</span></b></td>
                           <td><input name="price" class="form-control" id="fullname" type="text" placeholder="Enter price" minlength="3"
-                                  maxlength="30"></td>
+                                  maxlength="30" required="required"></td>
                                   <td><b>(VND)</b></td>
                       </tr> 
                             <tr>
@@ -133,7 +78,7 @@
                                     <div class="input-group-prepend">
                                       <div class="input-group-text">From date</div>
                                     </div>
-                                    <input name="start" type="date" class="form-control" id="inlineFormInputGroup" placeholder="Username"></td>
+                                    <input name="start" type="date" class="form-control" id="inlineFormInputGroup" placeholder="Username" required="required"></td>
                             </tr>
                             <tr>
                               <td></td>
@@ -142,7 +87,7 @@
                                   <div class="input-group-prepend">
                                     <div class="input-group-text">To date</div>
                                   </div>
-                                  <input name="end" type="date" class="form-control" id="inlineFormInputGroup" placeholder="Username"></td>
+                                  <input required="required" name="end" type="date" class="form-control" id="inlineFormInputGroup" placeholder="Username"></td>
                           </tr>
                            <tr>
                             <td></td>

@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import fa.training.entity.employee;
+
 
 public class LogoutController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -24,7 +26,11 @@ public class LogoutController extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		 HttpServletRequest req = (HttpServletRequest) request;
+	        HttpServletResponse res = (HttpServletResponse) response;
+	       req.getSession().removeAttribute("account");
+	       response.sendRedirect("login");
+	        
 	}
 
 	/**

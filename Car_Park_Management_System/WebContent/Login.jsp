@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +15,7 @@
 <title>Login</title>
 </head>
 <body>
-<section class="vh-100">
+<section class="vh-100 borderd">
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-6 text-black">
@@ -25,18 +26,19 @@
         </div>
 
         <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
+        
 
           <form action="login" method="post" style="width: 23rem;">
 
-            <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h3>
-
+            <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in <br> <span class="text-danger">${error}</span></h3>
+            
             <div class="form-outline mb-4">
-              <input name="email" type="email" class="form-control form-control-lg" placeholder="Email address" required/>
+              <input name="account" type="text" class="form-control form-control-lg" placeholder="Enter your account" required/>
           
             </div>
 
             <div class="form-outline mb-4">
-              <input name="password" type="password" class="form-control form-control-lg" placeholder="Password" required/>
+              <input name="password" type="password" class="form-control form-control-lg" placeholder="Enter Your Password" required/>
             </div>
 
             <div class="pt-1 mb-4">

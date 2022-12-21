@@ -16,5 +16,5 @@ public class ticket {
 	private String bookingTime ;
     private String	customerName ;
 	private String licensePlate ;
-	private int tripId ;
+	private trip trip ;
 }

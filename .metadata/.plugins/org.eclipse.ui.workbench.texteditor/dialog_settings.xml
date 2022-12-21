@@ -8,6 +8,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="bookingDao bdao = new bookingDao();"/>
 			<item value="trip"/>
 			<item value="&#x09;public Content getAContent(String title) {"/>
 			<item value="javax"/>
@@ -22,7 +23,6 @@
 			<item value="EMAIL_VALID"/>
 			<item value="80"/>
 			<item value="8080"/>
-			<item value="99"/>
 		</list>
 		<list key="replacehistory">
 			<item value="jakarta"/>
